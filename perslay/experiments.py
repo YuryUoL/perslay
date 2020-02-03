@@ -18,7 +18,9 @@ from scipy.linalg import eigh
 import datetime
 
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import gudhi as gd
 
 import matplotlib.pyplot as plt
